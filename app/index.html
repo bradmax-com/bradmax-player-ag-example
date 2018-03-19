@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>AngularJS</title>
+		<meta name="theme-color" content="#bdbdbd">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../node_modules/html5-boilerplate/dist/css/normalize.css">
+		<link rel="stylesheet" href="../node_modules/html5-boilerplate/dist/css/main.css">
+		<link rel="stylesheet" href="app.css">
+		<script src="../node_modules/html5-boilerplate/dist/js/vendor/modernizr-3.5.0.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<a href="https://bradmax.com" rel="noopener" target="_blank">
+			<img alt="Bradmax Ltd." width="500px" src="./../assets/md/bradmax.svg"/>
+		</a>
+
+		<a href="https://angularjs.org" rel="noopener" target="_blank">
+			<img alt="AngularJs" width="300px" src="./../assets/md/ag.svg"/>
+		</a>
+
+		<h1>Welcome to React Js example app!</h1>
+
+		<h2>skin gorilla</h2>
+		<!-- default -->
+		<bradmax-player-gorilla></bradmax-player-gorilla>
+		<!-- html -->
+		<!-- <bradmax-player-gorilla>CONFIG_JSON_STRING</bradmax-player-gorilla> -->
+		<!-- http -->
+		<!-- <bradmax-player-gorilla config-url="URL_TO_CONFIG"></bradmax-player-gorilla> -->
+
+		<h2>skin mole</h2>
+		<!-- default -->
+		<bradmax-player-mole></bradmax-player-mole>
+		<!-- html -->
+		<!-- <bradmax-player-mole>CONFIG_JSON_STRING</bradmax-player-mole> -->
+		<!-- http -->
+		<!-- <bradmax-player-mole config-url="URL_TO_CONFIG"></bradmax-player-mole> -->
+
+		<h2>skin snake</h2>
+		<!-- default -->
+		<bradmax-player-snake></bradmax-player-snake>
+		<!-- html -->
+		<!-- <bradmax-player-snake>CONFIG_JSON_STRING</bradmax-player-snake> -->
+		<!-- http -->
+		<!-- <bradmax-player-snake config-url="URL_TO_CONFIG"></bradmax-player-snake> -->
+
+		<h2>skin zebra</h2>
+		<!-- default -->
+		<bradmax-player-zebra></bradmax-player-zebra>
+		<!-- html -->
+		<!-- <bradmax-player-zebra>CONFIG_JSON_STRING</bradmax-player-zebra> -->
+		<!-- http -->
+		<!-- <bradmax-player-zebra config-url="URL_TO_CONFIG"></bradmax-player-zebra> -->
+
+		<h2>Here are some links to help you start: </h2>
+		<ul>
+			<li>
+				<h2>
+					<a target="_blank" rel="noopener" href="https://bradmax.com/static/player-doc/">Bradmax Player Documentation</a>
+				</h2>
+			</li>
+			<li>
+				<h2>
+					<a target="_blank" rel="noopener" href="https://reactjs.org/">React Js website</a>
+				</h2>
+			</li>
+			<li>
+				<h2>
+					<a target="_blank" rel="noopener" href="https://bradmax.com">Bradmax</a>
+				</h2>
+			</li>
+		</ul>
+
+		<!-- In production use:
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+		-->
+		<script src="../node_modules/angular/angular.js"></script>
+		<script src="../node_modules/@bradmax/player-ag/gorilla/index.js"></script>
+		<script src="../node_modules/@bradmax/player-ag/mole/index.js"></script>
+		<script src="../node_modules/@bradmax/player-ag/snake/index.js"></script>
+		<script src="../node_modules/@bradmax/player-ag/zebra/index.js"></script>
+		<script src="app.js"></script>
+		<noscript> You need to enable JavaScript to run this app. </noscript>
+	</body>
+</html>

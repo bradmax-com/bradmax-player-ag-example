@@ -1,0 +1,35 @@
+{
+	"name": "@bradmax/player-ag-example",
+	"version": "0.0.0",
+	"description": "Bradmax Player AngularJs example app.",
+	"author": "Piotr Długołęcki <piotr.dlugolecki@bradmax.pl>",
+	"license": "MIT",
+	"keywords": [
+		"bradmax",
+		"player",
+		"angularJs",
+		"javascript"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bradmax-com/bradmax-player-ag-example"
+	},
+	"homepage": "https://bradmax.com",
+	"engines": {
+		"node": "8.9.4",
+		"npm": "5.7.1",
+		"yarn": "1.5.1"
+	},
+	"scripts": {
+		"start": "http-server -a localhost -p 8000 -c-1 ./"
+	},
+	"devDependencies": {
+		"@bradmax/player-ag": "~0.0.0",
+		"angular": "~1.6.9",
+		"angular-loader": "~1.6.9",
+		"angular-mocks": "~1.6.9",
+		"angular-route": "~1.6.9",
+		"html5-boilerplate": "^6.0.1",
+		"http-server": "0.11.1"
+	}
+}

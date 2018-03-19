@@ -1,0 +1,17 @@
+/* app css stylesheet */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+	background: #bdbdbd;
+	margin: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+bradmax-player-gorilla,
+bradmax-player-mole,
+bradmax-player-snake,
+bradmax-player-zebra
+{
+	display: block;
+	width: 1280px;
+	height: 534px;
+}
